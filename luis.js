@@ -1,6 +1,6 @@
 import ctx, { size } from './main.js'
 
-const size = 113
+// const size = 113
 const x = 3 * size
 const y = 3 * size
 

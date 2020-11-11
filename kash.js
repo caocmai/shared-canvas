@@ -1,7 +1,10 @@
+import ctx from './main.js';
 import kash, { size } from './main.js'
 
 const x = 1 * size;
 const y = 3 * size;
+
+ctx.save()
 
 kash.beginPath();
 kash.lineWidth = '5';
@@ -20,3 +23,5 @@ kash.stroke();
 kash.shadowBlur = 22;
 kash.shadowColor = 'blue';
 kash.fill();
+
+ctx.restore()
